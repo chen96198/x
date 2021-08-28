@@ -16,7 +16,8 @@ const $ = new Env("中青看看赚");
 $.suffix = i => i > 0 ? i + 1 + '' : '';
 $.isRewrite = 'undefined' !== typeof $request;
 $.isResponse = 'undefined' !== typeof $response;
-const youthBanner = 'youth_banner';
+const youthBanner = '{"https://ios.baertt.com/v5/task/browse_start.json":{"4155":"p=9NwGV8Ov71o%3DgW5NEpb6rjb84bkaCQyOq-myT0C-Ktb_mEtDEGsOrBruuZzIpWlevTEf2n4e6SDtwtHI8jh7tGLFm1iscPtbZwlhO1--2rPMqEVay5SHQZ0Xa5om9y_QnFioIoDSg-ArtrfwznZt1IhRAOspLNm4F1Z4mRILDUTDM9AS-u45jBCbW1NVJsJepVRFFLAGYvxv7FlDjXVkW-sayoLCg75TQCafYvmgJc-FNkQKTiL2cSr4ELaWLjSgmgr7GYjOTAEZ7fDKx3cW7eoO_nG_Ukz3WNwdXT-QPVGPRaYefucK6AFCAHLOywC3oGCVI4wG4xn4_AQU35iwY7m56t1jaJlIZwNrnDxipMZeU1OIfYI2JpEYzcMoxHOEkY7kIBeR2gJGKebLFJJ_ZA2I7CXAtKIRMRJHeQ4Dasz5l9zIzJUcX8mxGMHFraomEf_XAnbB2daNhA8rkPj6qYw1w29oKx6fNBfJKXtLLmDFFh3g2nnhecnki3PSVutAM7Mjg-kqcyWlJxSHpEm2VLtDYOO_c3-WlFL1Tf_NWmRagK1BQ15SAbCk_VDcnOLHPTTdlurmW6pG2qg_61FneZ7iXJdh9EXGUY48xJqkmYQuq5ftKRcka-8Q4gTVSEuFaDxnQ4UgQPY_Z0WGnw6poWYN-yQnvF4_KaO4f3-C8ObK47OuvNl-NPLJfjSfDNNQS3yf-O-QKYuNduIXELO3bTtE0jQxnbpbkGHWgc5pb6kDCtwTINZtlKydhsHO0fqJpeiYqdXI5s4U4CnH4H7VhEuUZESA42rzaY4pVy6qg3HM5bENAoJH3i_3WG-abKheajgu6ZwpP71UYVhl7LfFt0UWZw3Ht9fShCKMBXS7A-xI","headers":{"User-Agent":"KDApp/2.0.2 (iPhone; iOS 14.3; Scale/3.00)","Content-Type":"application/x-www-form-urlencoded"}}}
+';
 const youthAndroidReadtime = 'youth_android_readtime';
 const youthAndroidReward = 'youth_android_reward';
 const youthAndroidNewtask = 'youth_android_newtask';
